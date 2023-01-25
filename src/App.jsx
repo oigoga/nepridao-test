@@ -1,12 +1,17 @@
 import { useState } from 'react'
-import './App.css'
+import Mainpage from './components/Mainpage'
+import Sidebar from './components/Sidebar'
 
 function App() {
 
   return (
-    <div className=''>
-      Nepridao
+    < >
+    <div className='flex flex-row bg-bg-color'>
+    <Sidebar/>
+      <Mainpage/>
     </div>
+      
+    </>
   )
 }
 
