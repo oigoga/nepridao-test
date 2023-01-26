@@ -5,11 +5,11 @@ import Navabar from "./Navabar";
 import { IoIosArrowBack } from "react-icons/io";
 import Topbar from "./Topbar";
 import Dealdetails from "./Dealdetails";
-import Tranchestructure from './Tranchestructure'
-import Review from './Review'
+import Tranchestructure from './Tranchestructure';
+import Review from './Review';
 
 const mainpage = () => {
-  
+ 
 
   return (
     <Card>
@@ -18,7 +18,7 @@ const mainpage = () => {
           <Navabar />
         </div>
 
-        <div className="flex flex-col  text-black py-5  ">
+        <div className="flex flex-col  text-black py-5  " id="Mainpage">
           <button className="flex  text-teal font-bold">
             <div className="mt-1 mr-2 border-teal rounded-md h-4 border-2">
               <IoIosArrowBack className="h-full" />
