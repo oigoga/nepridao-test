@@ -14,10 +14,10 @@ const sidebar = () => {
           </h3>
         </div>
         <div className="flex flex-col justify-between mt-60 font-bold">
-          <button >
+          <button className="p-2 my-2" >
             Invest/Withdraw
           </button>
-          <button  onClick={() => displayWindow((prev) => !prev)} >
+          <button  onClick={() => displayWindow((prev) => !prev)} className="bg-bg-color text-black p-2 my-2" >
             Deals
           </button>
         </div>

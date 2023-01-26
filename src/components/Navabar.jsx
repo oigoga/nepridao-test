@@ -3,7 +3,7 @@ import Card from './Card'
 function Navabar() {
   return (
     
-        <nav className='flex justify-end mr-3 my-4'>
+        <nav className='flex justify-end  my-4'>
         <button className='border-2 border-black shadow-sm shadow-grey px-4 py-1 mx-3  w-24'>
             Active 
         </button>
@@ -17,3 +17,5 @@ function Navabar() {
 }
 
 export default Navabar
+
+

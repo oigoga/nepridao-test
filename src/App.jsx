@@ -1,16 +1,13 @@
 import { useState } from 'react'
 import Mainpage from './components/Mainpage'
 import Sidebar from './components/Sidebar'
+import Container from './components/Container'
 
 function App() {
 
   return (
     < >
-    <div className='flex flex-row bg-bg-color'>
-    <Sidebar/>
-      <Mainpage/>
-    </div>
-      
+    <Container/>
     </>
   )
 }

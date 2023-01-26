@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Sidebar from "./Sidebar";
+import Mainpage from "./Mainpage";
 
 function container() {
   return (
-    <div>container</div>
-  )
+    <div className="flex flex-row justify-between w-screen bg-bg-color">
+      <Sidebar />
+      <Mainpage />
+    </div>
+  );
 }
 
-export default container
+export default container;
