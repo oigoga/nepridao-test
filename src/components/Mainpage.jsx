@@ -6,7 +6,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import Topbar from "./Topbar";
 import Dealdetails from "./Dealdetails";
 import Tranchestructure from './Tranchestructure';
-import Review from './Review';
+import Review from "./Review";
 
 const mainpage = () => {
  
