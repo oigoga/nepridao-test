@@ -1,10 +1,12 @@
 import React from 'react'
+import Topbar from './Topbar'
 
 const review = () => {
   return (
-    <div className='bg-black h-36 font-extrabold my-3'>
-    Tranche
-  </div>
+    <>
+    
+    </>
+  
   )
 }
 

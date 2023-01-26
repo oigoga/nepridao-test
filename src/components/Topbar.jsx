@@ -6,7 +6,7 @@ const Topbar = () => {
   return (
     <>
       <div className="flex text-base font-semibold text-grey border-b-2 border-black py-8 ">
-              <NavLink to={'/deal'} className="text-grey border-b-4 w-1/3 mr-2" activeclassname=''>
+              <NavLink to={'/deal'} className="text-grey border-b-4 w-1/3 mr-2" >
               <button >
                 <div className="text-left">1. Deal  details</div>
               </button>

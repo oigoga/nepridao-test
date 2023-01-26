@@ -1,5 +1,6 @@
 import React from "react";
 import Amortizationloan from "./Amortizationloan";
+import Bulletloan from "./Bulletloan";
 
 const Dealdetails = () => {
   return (
@@ -46,6 +47,8 @@ const Dealdetails = () => {
         </div>
      </form>
      <Amortizationloan/>
+     <Bulletloan/>
+
     </div>
    
     </>
