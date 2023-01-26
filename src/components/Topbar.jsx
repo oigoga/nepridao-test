@@ -12,13 +12,13 @@ const Topbar = () => {
               </button>
 
               </NavLink>
-              <NavLink to={'/tranche'} className="text-grey border-b-4 w-1/3 mx-2  " activeClassName='text-black'>
+              <NavLink to={'/tranche'} className="text-grey border-b-4 w-1/3 mx-2  ">
               <button >
                 <div className="text-left">2. Tranche Structure</div>
               </button>
 
               </NavLink>
-              <NavLink to={'/review'} className="text-grey border-b-4 w-1/3 ml-2" activeClassName='text-black' >
+              <NavLink to={'/review'} className="text-grey border-b-4 w-1/3 ml-2"  >
               <button >
                 <div className="text-left">3. Review</div>
               </button>

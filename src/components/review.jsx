@@ -4,6 +4,8 @@ import { HiKey } from "react-icons/hi";
 import { RiShareBoxFill } from "react-icons/ri";
 import Amortizationloan from './Amortizationloan';
 import Reviewtranchestructure from './Reviewtranchestructure';
+import Reviewmezzanine from './Reviewmezzanine';
+import Reviewjunior from './Reviewjunior';
 
 const Review = () => {
    
@@ -51,7 +53,8 @@ const Review = () => {
     </div>
     <div>
         <h4 className='text-3xl font-semibold'>Invest in Tranches</h4>
-            <Amortizationloan/>
+            <Reviewmezzanine/>
+            <Reviewjunior/>
     </div>
    </>
    
