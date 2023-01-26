@@ -16,8 +16,8 @@ module.exports = {
       'black': '#000000',
       'teal': '#008080',
       'bg-color': '#f7f7f8',
-      'grey': '#c1c0b9'
-     
+      'grey': '#c1c0b9',
+      'gray': '#474744'
     },
     fontFamily: {
      Montserrat : ['Montserrat', 'sans-serif'],

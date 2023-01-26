@@ -3,7 +3,7 @@ import { useState } from "react";
 import Mainpage from  './Mainpage'
 
 const sidebar = () => {
-  const [displayWindow, setdisplayWindow] = useState(false);
+  
 
   return (
     <>
@@ -17,14 +17,14 @@ const sidebar = () => {
           <button className="p-2 my-2" >
             Invest/Withdraw
           </button>
-          <button  onClick={() => displayWindow((prev) => !prev)} className="bg-bg-color text-black p-2 my-2" >
+          <button  className="bg-bg-color text-black p-2 my-2" >
             Deals
           </button>
         </div>
 
         
       </div>
-      {displayWindow? (<Mainpage/>): null }
+     
     </>
   );
 };

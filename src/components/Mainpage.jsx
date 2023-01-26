@@ -9,7 +9,7 @@ import Tranchestructure from './Tranchestructure'
 import Review from './Review'
 
 const mainpage = () => {
-  const [showComponent, setShowComponent] = useState(false);
+  
 
   return (
     <Card>
