@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Card from "./Card";
+import Review from "./Review";
 import Navabar from "./Navabar";
 import { IoIosArrowBack } from "react-icons/io";
 import Topbar from "./Topbar";
 import Dealdetails from "./Dealdetails";
 import Tranchestructure from './Tranchestructure';
-import Review from "./Review";
+
 
 const mainpage = () => {
  
@@ -33,8 +34,7 @@ const mainpage = () => {
             <Routes>
               <Route path='/deal' element={<Dealdetails/>}/>
               <Route path='/tranche' element={<Tranchestructure/>}/>
-              <Route path='/review' element={<Review/>}/>
-
+              <Route exact path='/review' element={<Review/>}/>
             </Routes>
           </div>
         </div>
