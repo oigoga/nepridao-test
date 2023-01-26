@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Card from "./Card";
-import Review from "./Review";
+import {Review} from "./Review";
 import Navabar from "./Navabar";
 import { IoIosArrowBack } from "react-icons/io";
 import Topbar from "./Topbar";
