@@ -1,14 +1,18 @@
 import { useState } from 'react'
-import Mainpage from './components/Mainpage'
 import Sidebar from './components/Sidebar'
-import Container from './components/Container'
+import Mainpage from './components/Mainpage'
 
 function App() {
 
   return (
-    < >
-    <Container/>
-    </>
+    
+<>
+<div className="flex flex-row justify-between w-screen  bg-bg-color">
+      <Sidebar />
+      <Mainpage />
+    </div>
+</>
+    
   )
 }
 
