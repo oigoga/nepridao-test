@@ -21,7 +21,8 @@ module.exports = {
       'yellow': '#FFFF00',
       'mint': ' #acc6aa',
       'green': '#004445',
-      'dark-mint': '#4c9173'
+      'dark-mint': '#4c9173',
+      'white': '#fff'
     },
     fontFamily: {
      Montserrat : ['Montserrat', 'sans-serif'],
