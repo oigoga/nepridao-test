@@ -1,5 +1,3 @@
-import React from 'react'
-import Topbar from './Topbar'
 import { HiKey } from "react-icons/hi";
 import { RiShareBoxFill } from "react-icons/ri";
 import Amortizationloan from './Amortizationloan';
@@ -62,4 +60,4 @@ const Review = () => {
   )
 }
 
-export default Review
+export default Review;

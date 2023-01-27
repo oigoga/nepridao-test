@@ -77,4 +77,4 @@ const Reviewtranchestructure = () => {
   )
 }
 
-export default Reviewtranchestructure
+export default Reviewtranchestructure;

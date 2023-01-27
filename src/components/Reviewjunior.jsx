@@ -54,4 +54,4 @@ const Reviewjunior = () => {
   )
 }
 
-export default Reviewjunior
+export default Reviewjunior;

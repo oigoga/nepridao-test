@@ -29,4 +29,4 @@ const Bulletloan = () => {
   )
 }
 
-export default Bulletloan
+export default Bulletloan;
